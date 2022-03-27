@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Utilities
+
+  Created by Oleksii Kolomiiets on 26.03.2022.
+  
+*/
+"section_water_supply_title" = "Водопостачання";
+"item_tariff_title" = "Тариф";
+"item_delivery_title" = "Постачання";
+"counter_item_water_1_title" = "Кухня";
+"counter_item_water_2_title" = "Ванна";
+"counter_general_title" = "Показники";
+"item_expenses_title" = "Витрата";
+"item_fee_title" = "Fee";
