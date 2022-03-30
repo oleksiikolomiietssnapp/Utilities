@@ -23,6 +23,19 @@
 		53897AA027F096C30014546E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897A9F27F096C30014546E /* Item.swift */; };
 		53897AA227F096E90014546E /* PriceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AA127F096E90014546E /* PriceItem.swift */; };
 		53897AA427F099CC0014546E /* CountItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AA327F099CC0014546E /* CountItem.swift */; };
+		53897AA627F1F7040014546E /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AA527F1F7040014546E /* Storage.swift */; };
+		53897AA927F1F74B0014546E /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AA827F1F74B0014546E /* Cache.swift */; };
+		53897AAB27F1F7770014546E /* FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AAA27F1F7770014546E /* FileName.swift */; };
+		53897AAD27F1F7CC0014546E /* OSLog+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53897AAC27F1F7CC0014546E /* OSLog+Extensions.swift */; };
+		53A3705727F220CF000D1720 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3705627F220CF000D1720 /* Date+Extensions.swift */; };
+		53A3705927F3076F000D1720 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3705827F3076F000D1720 /* Tab.swift */; };
+		53A3705B27F3080A000D1720 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3705A27F3080A000D1720 /* AppViewModel.swift */; };
+		53A3705E27F372F5000D1720 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 53A3705D27F372F5000D1720 /* IdentifiedCollections */; };
+		53A3706027F3770D000D1720 /* MetersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3705F27F3770D000D1720 /* MetersView.swift */; };
+		53A3706227F4DFBB000D1720 /* Meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3706127F4DFBB000D1720 /* Meter.swift */; };
+		53A3706527F4E16B000D1720 /* MetersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3706427F4E16B000D1720 /* MetersViewModel.swift */; };
+		53A3706727F4E1A8000D1720 /* MeterSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3706627F4E1A8000D1720 /* MeterSectionViewModel.swift */; };
+		53A3706927F4E1CA000D1720 /* MeterSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A3706827F4E1CA000D1720 /* MeterSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +76,19 @@
 		53897A9F27F096C30014546E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		53897AA127F096E90014546E /* PriceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceItem.swift; sourceTree = "<group>"; };
 		53897AA327F099CC0014546E /* CountItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountItem.swift; sourceTree = "<group>"; };
+		53897AA527F1F7040014546E /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		53897AA827F1F74B0014546E /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		53897AAA27F1F7770014546E /* FileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileName.swift; sourceTree = "<group>"; };
+		53897AAC27F1F7CC0014546E /* OSLog+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSLog+Extensions.swift"; sourceTree = "<group>"; };
+		53897AAE27F21D950014546E /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		53A3705627F220CF000D1720 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		53A3705827F3076F000D1720 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		53A3705A27F3080A000D1720 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		53A3705F27F3770D000D1720 /* MetersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetersView.swift; sourceTree = "<group>"; };
+		53A3706127F4DFBB000D1720 /* Meter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meter.swift; sourceTree = "<group>"; };
+		53A3706427F4E16B000D1720 /* MetersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetersViewModel.swift; sourceTree = "<group>"; };
+		53A3706627F4E1A8000D1720 /* MeterSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterSectionViewModel.swift; sourceTree = "<group>"; };
+		53A3706827F4E1CA000D1720 /* MeterSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A3705E27F372F5000D1720 /* IdentifiedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				5313898927ECEA1D007DFA6F /* UtilitiesApp.swift */,
+				53A3705A27F3080A000D1720 /* AppViewModel.swift */,
 				5313898B27ECEA1D007DFA6F /* ContentView.swift */,
-				53897A9827EF80560014546E /* Utility */,
 				5313898D27ECEA1F007DFA6F /* Assets.xcassets */,
+				53A3706B27F4E22A000D1720 /* Modules */,
+				53A3706327F4DFCE000D1720 /* Models */,
 				53897A9B27EF80990014546E /* Common */,
 				5313898F27ECEA1F007DFA6F /* Preview Content */,
 				53897A9127EF6FF40014546E /* SupportingFiles */,
@@ -152,6 +181,7 @@
 		53897A9127EF6FF40014546E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				53897AAE27F21D950014546E /* Playground.playground */,
 				53897A9627EF72AC0014546E /* Localizable.strings */,
 				53897A8927EF1FC20014546E /* IDETemplateMacros.plist */,
 			);
@@ -161,8 +191,8 @@
 		53897A9827EF80560014546E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				53897A9E27F096B60014546E /* Item */,
 				53897A8727EDCF6A0014546E /* UtilitySection.swift */,
+				53897A9E27F096B60014546E /* Item */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -170,8 +200,9 @@
 		53897A9B27EF80990014546E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				53A3705527F220C3000D1720 /* Extensions */,
+				53897AA727F1F7350014546E /* Storage */,
 				53897A9927EF80760014546E /* Formatter.swift */,
-				53897A9C27F05E370014546E /* String+Extensions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -185,6 +216,55 @@
 				53897AA327F099CC0014546E /* CountItem.swift */,
 			);
 			path = Item;
+			sourceTree = "<group>";
+		};
+		53897AA727F1F7350014546E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				53897AA527F1F7040014546E /* Storage.swift */,
+				53897AAA27F1F7770014546E /* FileName.swift */,
+				53897AA827F1F74B0014546E /* Cache.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		53A3705527F220C3000D1720 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53897A9C27F05E370014546E /* String+Extensions.swift */,
+				53897AAC27F1F7CC0014546E /* OSLog+Extensions.swift */,
+				53A3705627F220CF000D1720 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53A3706327F4DFCE000D1720 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53A3705827F3076F000D1720 /* Tab.swift */,
+				53A3706127F4DFBB000D1720 /* Meter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53A3706A27F4E222000D1720 /* Meters */ = {
+			isa = PBXGroup;
+			children = (
+				53A3706827F4E1CA000D1720 /* MeterSectionView.swift */,
+				53A3705F27F3770D000D1720 /* MetersView.swift */,
+				53A3706427F4E16B000D1720 /* MetersViewModel.swift */,
+				53A3706627F4E1A8000D1720 /* MeterSectionViewModel.swift */,
+			);
+			path = Meters;
+			sourceTree = "<group>";
+		};
+		53A3706B27F4E22A000D1720 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				53897A9827EF80560014546E /* Utility */,
+				53A3706A27F4E222000D1720 /* Meters */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +283,9 @@
 			dependencies = (
 			);
 			name = Utilities;
+			packageProductDependencies = (
+				53A3705D27F372F5000D1720 /* IdentifiedCollections */,
+			);
 			productName = Utilities;
 			productReference = 5313898627ECEA1D007DFA6F /* Utilities.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +359,9 @@
 				uk,
 			);
 			mainGroup = 5313897D27ECEA1D007DFA6F;
+			packageReferences = (
+				53A3705C27F372F5000D1720 /* XCRemoteSwiftPackageReference "swift-identified-collections" */,
+			);
 			productRefGroup = 5313898727ECEA1D007DFA6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -323,12 +409,24 @@
 				53897A8827EDCF6A0014546E /* UtilitySection.swift in Sources */,
 				5313898C27ECEA1D007DFA6F /* ContentView.swift in Sources */,
 				53897A9A27EF80760014546E /* Formatter.swift in Sources */,
+				53A3706227F4DFBB000D1720 /* Meter.swift in Sources */,
+				53A3706927F4E1CA000D1720 /* MeterSectionView.swift in Sources */,
+				53A3706527F4E16B000D1720 /* MetersViewModel.swift in Sources */,
 				5313898A27ECEA1D007DFA6F /* UtilitiesApp.swift in Sources */,
+				53897AA927F1F74B0014546E /* Cache.swift in Sources */,
+				53897AAD27F1F7CC0014546E /* OSLog+Extensions.swift in Sources */,
 				53897AA427F099CC0014546E /* CountItem.swift in Sources */,
 				53897AA227F096E90014546E /* PriceItem.swift in Sources */,
 				53897AA027F096C30014546E /* Item.swift in Sources */,
+				53A3706027F3770D000D1720 /* MetersView.swift in Sources */,
+				53A3706727F4E1A8000D1720 /* MeterSectionViewModel.swift in Sources */,
+				53A3705727F220CF000D1720 /* Date+Extensions.swift in Sources */,
+				53A3705B27F3080A000D1720 /* AppViewModel.swift in Sources */,
 				53897A9D27F05E370014546E /* String+Extensions.swift in Sources */,
 				531389B427ECEA8C007DFA6F /* UtilityItem.swift in Sources */,
+				53A3705927F3076F000D1720 /* Tab.swift in Sources */,
+				53897AAB27F1F7770014546E /* FileName.swift in Sources */,
+				53897AA627F1F7040014546E /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +763,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53A3705C27F372F5000D1720 /* XCRemoteSwiftPackageReference "swift-identified-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-identified-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53A3705D27F372F5000D1720 /* IdentifiedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53A3705C27F372F5000D1720 /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
+			productName = IdentifiedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5313897E27ECEA1D007DFA6F /* Project object */;
 }
